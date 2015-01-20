@@ -1,0 +1,3 @@
+./examples/images/dog10.png 0
+./examples/images/cat10.png 1
+./examples/images/truck10.png 2
