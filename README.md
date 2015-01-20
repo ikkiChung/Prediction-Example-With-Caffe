@@ -11,7 +11,12 @@ Copy files to caffe master direcoty
 
 Copy files to your caffe master directory. keep the same dircctories and sub-directoies.
 
-    caffe-master/
+    caffe-master/examples/images/cat10.png
+    caffe-master/examples/images/dog10.png
+    caffe-master/examples/images/truck10.png
+    caffe-master/examples/prediction_example/file_list.txt
+    caffe-master/examples/prediction_example/prediction_example.prototxt
+    caffe-master/tools/prediction_example.cpp
 
 Compile Example
 --------------------------------------------------
