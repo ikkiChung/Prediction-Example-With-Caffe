@@ -20,7 +20,7 @@ We assume you are ine the caffe master directory, just use make to compile our e
 
     make
 
-The caffe makefile will automatic find the new exmaple and copy the result to build directory.
+The caffe makefile will automatic find the new example and copy the result to build directory.
 
     caffe-master ikki$ ls ./build/tools/prediction_example*
     ./build/tools/prediction_example
@@ -34,9 +34,19 @@ Prediction
 Just run the example.
 
     ./build/tools/prediction_example
+    I0120 11:02:45.297869 2008834832 prediction_example.cpp:52] Result size: 3
+    I0120 11:02:45.297899 2008834832 prediction_example.cpp:55] Blob size: 0
+    I0120 11:02:45.297905 2008834832 prediction_example.cpp:58] -------------
+    I0120 11:02:45.297910 2008834832 prediction_example.cpp:59]  prediction :  
+    I0120 11:02:45.297919 2008834832 prediction_example.cpp:69] ------------------------------------------------------
+    I0120 11:02:45.297924 2008834832 prediction_example.cpp:73] Pattern:0 class:5 Prob=2.69744e-06
+    I0120 11:02:45.297940 2008834832 prediction_example.cpp:73] Pattern:1 class:3 Prob=4.0121e-05
+    I0120 11:02:45.297948 2008834832 prediction_example.cpp:73] Pattern:2 class:9 Prob=0.00531694
+    I0120 11:02:45.297956 2008834832 prediction_example.cpp:75] -------------
+
 
 For run on GPU device.
 
     ./build/tools/prediction_example GPU 0
-
+     
 
