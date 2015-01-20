@@ -1,15 +1,15 @@
-# Prediction-Example-With-Caffe
+# Prediction-Example-With-Caffe-Deep-Learning
 
-C++ Prediction Example With Caffe
+C++ Prediction Example With Caffe Deep Learning
 ===================
 
 In this example, we will using cifar10_quick_iter_5000.caffemodel as pre-trained model.
 And modified cifar10_quick_train_test.prototxt to get argmax for prediction.
 
-Copy files to caffe master direcoty
+Copy files to caffe master directory
 ---------------------
 
-Copy files to your caffe master directory. keep the same dircctories and sub-directoies.
+Copy files to your caffe master directory. keep the same directories and subdirectories.
 
     caffe-master/examples/images/cat10.png
     caffe-master/examples/images/dog10.png
