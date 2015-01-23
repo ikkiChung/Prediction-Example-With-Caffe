@@ -1,6 +1,5 @@
-# Prediction-Example-With-Caffe-Deep-Learning
 
-C++ Prediction Example With Caffe Deep Learning
+# C++ Prediction Example With Caffe Deep Learning
 ===================
 
 In this example, we will using cifar10_quick_iter_5000.caffemodel as pre-trained model.
